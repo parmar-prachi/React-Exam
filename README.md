@@ -103,14 +103,18 @@ LOGIN PAGE :
 <img width="1272" height="327" alt="ss-1" src="https://github.com/user-attachments/assets/bd54e18f-f1fc-49dd-8ed2-a3c80d511d6c" />
 
 
+
 HOME PAGE :
 
 <img width="1258" height="672" alt="ss-2" src="https://github.com/user-attachments/assets/5b6a41f0-06a9-4a78-b76d-e6c1238e4789" />
 
 
+
 VIEW PAGE :
 
 <img width="1280" height="509" alt="ss-4" src="https://github.com/user-attachments/assets/01e755d7-78fa-42dc-bfe5-87163b4dd35e" />
+
+
 
 PROFILE PAGE :
 
