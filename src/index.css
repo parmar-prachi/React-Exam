@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0b0b0b;
+    color: #ffffff;
+}
+
+.navbar {
+    background: #111 !important;
+    padding: 12px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #e50914 !important;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.col-md-3 {
+    margin-bottom: 25px;
+}
+
+.card {
+    background: #181818;
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(229, 9, 20, 0.3);
+}
+
+.card img {
+    height: 320px;
+    object-fit: cover;
+}
+
+/* CARD TEXT */
+.card-body {
+    padding: 12px;
+}
+
+.card-body h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.btn-primary {
+    background: #e50914;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
+.btn-primary:hover {
+    background: #b00610;
+}
+
+.spinner-border {
+    color: #e50914 !important;
+}
+
+.container.mt-4 {
+    max-width: 900px;
+    background: #141414;
+    color:white !important; 
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+/* MOVIE DETAILS LAYOUT */
+.movie-details-layout {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* POSTER BIG STYLE */
+.movie-details-layout img {
+    width: 280px;
+    border-radius: 14px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* DETAILS TEXT */
+.movie-info {
+    flex: 1;
+}
+
+.movie-info h2 {
+    color: #e50914;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.movie-info p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+/* BADGES */
+.badge {
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.container.mt-5 {
+    max-width: 400px;
+    background: #141414;
+    color: white !important;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+    .card img {
+        height: 220px;
+    }
+
+    .movie-details-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-details-layout img {
+        width: 100%;
+    }
+}
